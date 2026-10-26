@@ -20,7 +20,7 @@ sentence-transformers
 huggingface-hub
 
 # YouTube, video and audio processing
-yt-dlp
+yt-dlp[default]
 ffmpeg-python
 pydub
 
