@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Whisper models
+models/
+
+# Downloaded audio and temporary files
+download/
+downloads/
+temp/
+*.mp3
+*.wav
+*.m4a
+
+# ChromaDB local data
+vector_db/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

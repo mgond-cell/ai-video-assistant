@@ -1,0 +1,45 @@
+# AI Meeting Assistant — requirements.txt
+
+# UI
+streamlit
+
+# LLM and LangChain
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+# Local speech-to-text
+openai-whisper
+
+# RAG and vector database
+chromadb
+langchain-chroma
+sentence-transformers
+huggingface-hub
+
+# YouTube, video and audio processing
+yt-dlp
+ffmpeg-python
+pydub
+
+# Hindi-to-English translation
+deep-translator
+
+# PDF and TXT export
+reportlab
+
+# Environment variables and configuration
+python-dotenv
+
+# Data validation and structured outputs
+pydantic
+
+# HTTP requests
+requests
+
+# File and data handling
+pandas
+
+audioop-lts
